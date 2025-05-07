@@ -1,0 +1,217 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.Container {
+  width: 100%;
+  height: auto;
+  padding: 10px 50px;
+}
+.Container header {
+  width: 100%;
+  height: 97vh;
+  margin-bottom: 40px;
+}
+.Container header nav {
+  width: 100%;
+  height: 9vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.Container header nav .logo h3 {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.Container header nav .search form {
+  display: flex;
+  position: relative;
+  border: 1px solid #9b9b9b;
+  border-radius: 5px;
+}
+.Container header nav .search form input {
+  padding: 7px 40px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+.Container header nav .search form i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+}
+.Container header nav .search form button {
+  padding: 10px 20px;
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+  border: none;
+}
+.Container header nav .contact {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 16px;
+}
+.Container header nav .contact p {
+  font-size: 15px;
+}
+.Container header nav .contact i {
+  color: rgb(61, 60, 60);
+  cursor: pointer;
+}
+.Container header .block {
+  width: 100%;
+  height: 82vh;
+  background-color: rgba(46, 187, 119, 0.3529411765);
+  margin: 20px auto;
+  background-image: url("https://img.freepik.com/free-photo/3d-rendering-personal-care-products-fondant-pink_23-2151053868.jpg?semt=ais_hybrid&w=740");
+  background-position: center, right;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  align-items: center;
+  padding: 150px;
+  border-radius: 7px;
+}
+.Container header .block .text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: start;
+  font-family: "Tagesschrift", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  color: rgb(41, 41, 41);
+}
+.Container header .block .text button {
+  padding: 10px 35px;
+  border: none;
+  border-radius: 7px;
+  background-color: transparent;
+  border: 1px solid;
+  cursor: pointer;
+}
+.Container header .block .text button:hover {
+  background-color: rgba(237, 154, 182, 0.516);
+}
+.Container main .Popular {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.Container main .Popular .popular_text {
+  width: 100%;
+  padding: 10px;
+  color: rgb(72, 70, 70);
+  font-size: 18px;
+  margin: 20px 0px;
+  border: 1x solid;
+}
+.Container main .Popular .Boxes {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.Container main .Popular .Boxes .box {
+  width: 300px;
+  height: 380px;
+  border: 1px solid rgba(128, 128, 128, 0.587);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.Container main .Popular .Boxes .box:hover .img {
+  cursor: pointer;
+}
+.Container main .Popular .Boxes .box:hover .img img {
+  transform: scale(1.08);
+  transition: 0.5s;
+}
+.Container main .Popular .Boxes .box .img {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Container main .Popular .Boxes .box .img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.Container main .Popular .Boxes .box .text {
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Container main .Popular .Boxes .box .text p {
+  color: green;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 60px 70px;
+  background-color: #eeecec;
+}
+footer .info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+footer .info .contact {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+footer .info .contact p {
+  color: rgb(54, 54, 54);
+}
+footer .info .contact p:nth-child(3) {
+  color: black;
+  font-weight: 600;
+}
+footer .info .category, footer .info .comment, footer .info .links {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+footer .info .category p, footer .info .comment p, footer .info .links p {
+  color: rgb(54, 54, 54);
+}
+footer .info .comment {
+  width: 260px;
+}
+footer .info .comment form {
+  width: 255px;
+  display: flex;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+footer .info .comment form input {
+  padding: 5px 20px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+footer .info .comment form button {
+  padding: 8px 15px;
+  background-color: rgb(198, 92, 224);
+  border: none;
+  color: white;
+  border-radius: 5px;
+}/*# sourceMappingURL=main.css.map */
