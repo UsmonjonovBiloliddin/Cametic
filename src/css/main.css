@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 .Container {
@@ -120,7 +121,11 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.Container main .Popular .Boxes .box {
+.Container main .Popular .Boxes a {
+  color: black;
+  text-decoration: none;
+}
+.Container main .Popular .Boxes a .box {
   width: 300px;
   height: 380px;
   border: 1px solid rgba(128, 128, 128, 0.587);
@@ -131,34 +136,35 @@
   text-align: center;
   border-radius: 8px;
   overflow: hidden;
+  color: black;
 }
-.Container main .Popular .Boxes .box:hover .img {
+.Container main .Popular .Boxes a .box:hover .img {
   cursor: pointer;
 }
-.Container main .Popular .Boxes .box:hover .img img {
+.Container main .Popular .Boxes a .box:hover .img img {
   transform: scale(1.08);
   transition: 0.5s;
 }
-.Container main .Popular .Boxes .box .img {
+.Container main .Popular .Boxes a .box .img {
   width: 100%;
   height: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.Container main .Popular .Boxes .box .img img {
+.Container main .Popular .Boxes a .box .img img {
   width: 100%;
   height: 100%;
   border-radius: 10px;
 }
-.Container main .Popular .Boxes .box .text {
+.Container main .Popular .Boxes a .box .text {
   height: 20%;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.Container main .Popular .Boxes .box .text p {
-  color: green;
+.Container main .Popular .Boxes a .box .text p {
+  color: rgb(35, 142, 53);
 }
 
 footer {
